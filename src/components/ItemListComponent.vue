@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import type { ItemInterface } from '../../components/items/Item.interface'
 
-defineProps<{ items: any }>()
+defineProps<{ items: ItemInterface }>()
 
 const count = ref(0)
 </script>

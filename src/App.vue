@@ -1,13 +1,17 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import ItemListComponent from './components/ItemListComponent.vue'
+import ItemInterface from './components/items/Item.ts'
 
-const items: any[]= [
+const items: ItemInterface[]= [
   { id: 1,
-    name: "Item 1" },
+    name: "Item 1",
+    selected: false },
   { id: 2,
-    name: "Item 2" },
+    name: "Item 2",
+    selected: false },
   { id: 3,
-    name: "Item 3" }
+    name: "Item 3",
+    selected: false }
 ];
 </script>
 
