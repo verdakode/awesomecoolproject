@@ -17,7 +17,7 @@ const items: ItemInterface[]= [
 
 <template>
   <div class="home">
-    <HelloWorld :items="items"/>
+    <ItemListComponent :items="items"/>
   </div>
 </template>
 
